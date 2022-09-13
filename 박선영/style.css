@@ -304,6 +304,12 @@
   }
 
   /* 3페이지 카드리스트 */
+  .trd-cardlist {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
   .trd-card-title {
     margin-bottom: 30px;
     max-width: 400px;
@@ -490,6 +496,12 @@
   }
 
   /* 3페이지 카드리스트 */
+  .trd-cardlist {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
   .trd-card-title {
     margin-bottom: 1.5625vw;
     max-width: 20.8333vw;
@@ -679,6 +691,12 @@
   }
 
   /* 3페이지 카드리스트 */
+  .trd-cardlist {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
   .trd-card-title {
     margin-bottom: 3.4091vw;
     max-width: 45.4545vw;
@@ -702,6 +720,9 @@
     padding-left: 1.1364vw;
   }
   
+  .trd-img-box {
+    width: 57.45vw;
+  }
   .trd-img {
     width: 45.4545vw;
   }
@@ -865,14 +886,4 @@ transform: translate(-50%, -50%) -> 요소가 x, y 축을 50% 이동함*/
 }
 .trd-title {
   font-weight: bold;
-}
-.trd-sub-title {
-  font-size: 20px;
-}
-
-/* 3페이지 카드리스트 */
-.trd-cardlist {
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
